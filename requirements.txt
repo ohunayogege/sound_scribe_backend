@@ -1,0 +1,12 @@
+cloudinary
+Django
+djangorestframework
+djangorestframework-simplejwt
+django-filter
+librosa
+Pillow
+pydub
+requests
+django-cloudinary-storage
+mutagen
+python-decouple
