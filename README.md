@@ -1,6 +1,6 @@
-# 🎵 SoundCloud Backend – Django REST Framework
+# 🎵 SoundScribe Backend – Django REST Framework
 
-This is the backend API for **MyMusic**, a modern music streaming platform. Built with Django and DRF, it supports full CRUD operations for Songs, Albums, Artists, Playlists, and User Authentication.
+This is the backend API for **SoundScribe**, a modern music streaming platform. Built with Django and DRF, it supports full CRUD operations for Songs, Albums, Artists, Playlists, and User Authentication.
 
 ---
 
@@ -31,8 +31,8 @@ This is the backend API for **MyMusic**, a modern music streaming platform. Buil
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sound_cloud_backend.git
-cd sound_cloud_backend
+git clone https://github.com/yourusername/sound_scribe_backend.git
+cd sound_scribe_backend
 ```
 
 ## 2. Create & Activate Virtual Environment
@@ -49,10 +49,12 @@ source env/bin/activate  # Windows: env\Scripts\activate
 Create a .env file:
 
 ```bash
+CLOUDINARY_CLOUD_NAME=xxxxxxx
+CLOUDINARY_API_KEY=xxxxxxxxxxxxxxx
+CLOUDINARY_SECRET_KEY=xxxxxxxxxxxxxxxxx
+DJANGO_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxx
 DEBUG=True
-SECRET_KEY=your-secret-key
-DATABASE_URL=postgres://user:pass@localhost:5432/mymusic
-CLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name
+ALLOWED_HOSTS=localhost
 ```
 
 ## 5. Run Migrations & Server
