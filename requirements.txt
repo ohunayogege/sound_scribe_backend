@@ -10,3 +10,4 @@ requests
 django-cloudinary-storage
 mutagen
 python-decouple
+gunicorn
